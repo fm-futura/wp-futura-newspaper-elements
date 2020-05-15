@@ -26,7 +26,7 @@ class td_futura_api_plugin {
     }
 
     static function td_plugin_frontend_css() {
-        //wp_enqueue_style('td-plugin-framework', plugins_url('', __FILE__) . '/css/style.css');
+        wp_enqueue_style('td-plugin-framework', plugins_url('', __FILE__) . '/css/style.css');
     }
 
     function hook_td_global_after()    {
