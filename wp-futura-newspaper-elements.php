@@ -52,6 +52,27 @@ class td_futura_api_plugin {
             )
         );
 
+        td_api_block::add('td_block_futura_social_icons',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Redes Sociales Futura',
+                "base" => 'td_block_futura_social_icons',
+                "class" => 'td_block_futura_social_icons',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_futura_social_icons',
+                'file' => $this->plugin_path . '/shortcodes/td_block_futura_social_icons.php',
+                "params" => array_merge(
+                    td_config::get_map_block_general_array(),
+                    td_config::get_map_filter_array(),
+                    td_config::get_map_block_ajax_filter_array(),
+                    td_config::get_map_block_pagination_array()
+                )
+            )
+        );
+
     }
 
 }
