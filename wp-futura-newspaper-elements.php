@@ -4,7 +4,7 @@ Plugin Name:        FM Futura Newspaper Elements
 Plugin URI:         https://github.com/fm-futura/wp-futura-newspaper-elements
 GitHub Plugin URI:  https://github.com/fm-futura/wp-futura-newspaper-elements
 Description:        modules/blocks to wrap to wrap our custom widgets and shortcodes inside TagDiv composer
-Version:            20200514
+Version:            20200518
 Author:             FM Futura
 Author URI:         https://fmfutura.com.ar
 */
