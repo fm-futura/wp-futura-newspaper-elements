@@ -73,6 +73,18 @@ class td_futura_api_plugin {
             )
         );
 
+        td_api_module::add( 'td_module_futura_flex_1',
+            array_merge(
+            td_api_module::get_by_id('td_module_flex_1'),
+            array(
+                'file'                         => $this->plugin_path . '/modules/td_module_futura_flex_1.php',
+                'text'                         => 'Futura Module Flex 1',
+                'img'                          => '',
+                'used_on_blocks'               => array('td_block_flex_1', 'td_block_futura_flex_1'),
+                'class'                        => 'td_module_wrap td-animation-stack td_module_flex_1',
+            ))
+        );
+
     }
 
 }
