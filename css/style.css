@@ -3,3 +3,8 @@
   margin-bottom: 0px;
   z-index: 100;
 }
+
+
+.td-module-meta-info .audioPlayer {
+  pointer-events: all;
+}
