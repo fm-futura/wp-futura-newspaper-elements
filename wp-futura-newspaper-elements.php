@@ -85,6 +85,33 @@ class td_futura_api_plugin {
             ))
         );
 
+
+        td_api_module::add( 'td_module_futura_flex_6',
+            array_merge(
+            td_api_module::get_by_id('td_module_flex_6'),
+            array(
+                'file'                         => $this->plugin_path . '/modules/td_module_futura_flex_6.php',
+                'text'                         => 'Futura Module Flex 6',
+                'img'                          => '',
+                'used_on_blocks'               => array('td_block_futura_grid_flex_2'),
+                'class'                        => 'td-animation-stack td_module_flex_6',
+            ))
+        );
+
+
+        td_api_module::add( 'td_module_futura_flex_7',
+            array_merge(
+            td_api_module::get_by_id('td_module_flex_7'),
+            array(
+                'file'                         => $this->plugin_path . '/modules/td_module_futura_flex_7.php',
+                'text'                         => 'Futura Module Flex 7',
+                'img'                          => '',
+                'used_on_blocks'               => array('td_block_futura_grid_flex_2'),
+                'class'                        => 'td-animation-stack td_module_flex_7',
+            ))
+        );
+
+
         td_api_block::add('td_block_futura_flex_1',
             array_merge(
             td_api_block::get_by_id('td_flex_block_1'),
