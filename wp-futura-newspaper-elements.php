@@ -135,6 +135,18 @@ class td_futura_api_plugin {
             ))
         );
 
+
+        td_api_block::add('td_block_futura_grid_flex_4',
+            array_merge(
+            td_api_block::get_by_id('td_block_big_grid_flex_4'),
+            array(
+                "name" => 'Futura Block Big Grid Flex 4',
+                "base" => 'td_block_futura_grid_flex_4',
+                "class" => 'td_block_big_grid_flex_4',
+                'file' => $this->plugin_path . '/shortcodes/td_block_futura_grid_flex_4.php',
+            ))
+        );
+
     }
 
 }
