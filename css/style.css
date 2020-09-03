@@ -7,3 +7,27 @@
 .td-module-meta-info .audioPlayer {
   pointer-events: all;
 }
+
+.td_block_futura_flex_1-row {
+  display:        table;
+  padding-left:   .4rem   !important;
+  padding-right:  .4rem   !important;
+  border-radius:  .5em    !important;
+  border-width:   1em     !important;
+  border-color:   #bcbcbc !important;
+  border-style:   solid   !important;
+  background:     #bcbcbc !important;
+}
+
+.td_block_futura_flex_1-row:not(:first-child) {
+  margin-top:     1em;
+}
+
+.td_module_futura_flex_1 {
+  padding-top:    .25rem  !important;
+  border-radius:  .5em    !important;
+  border-width:   .25em   !important;
+  border-color:   #bcbcbc !important;
+  border-style:   solid   !important;
+  background:     #ffffff !important;
+}
