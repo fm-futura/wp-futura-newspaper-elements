@@ -73,6 +73,21 @@ class td_futura_api_plugin {
             )
         );
 
+        td_api_block::add('td_block_futura_links',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Futura links footer a Farco, Sir',
+                "base" => 'td_block_futura_links',
+                "class" => 'td_block_futura_links',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_futura_links',
+                'file' => $this->plugin_path . '/shortcodes/td_block_futura_links.php',
+            )
+        );
+
         td_api_module::add( 'td_module_futura_flex_1',
             array_merge(
             td_api_module::get_by_id('td_module_flex_1'),
