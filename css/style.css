@@ -50,3 +50,9 @@
   border-style:   solid   !important;
   background:     #ffffff !important;
 }
+
+.td_block_player_futura_play_button,
+.td_block_player_futura_current_show {
+  margin: 0 !important;
+}
+

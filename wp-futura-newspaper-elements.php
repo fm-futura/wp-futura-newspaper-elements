@@ -52,6 +52,48 @@ class td_futura_api_plugin {
             )
         );
 
+        td_api_block::add('td_block_player_futura_play_button',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Player Futura - Boton Play',
+                "base" => 'td_block_player_futura_play_button',
+                "class" => 'td_block_player_futura_play_button',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_futura',
+                'file' => $this->plugin_path . '/shortcodes/td_block_player_futura_play_button.php',
+                "params" => array_merge(
+                    td_config::get_map_block_general_array(),
+                    td_config::get_map_filter_array(),
+                    td_config::get_map_block_ajax_filter_array(),
+                    td_config::get_map_block_pagination_array()
+                )
+            )
+        );
+
+        td_api_block::add('td_block_player_futura_current_show',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Player Futura - Programa Actual',
+                "base" => 'td_block_player_futura_current_show',
+                "class" => 'td_block_player_futura_current_show',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_futura',
+                'file' => $this->plugin_path . '/shortcodes/td_block_player_futura_current_show.php',
+                "params" => array_merge(
+                    td_config::get_map_block_general_array(),
+                    td_config::get_map_filter_array(),
+                    td_config::get_map_block_ajax_filter_array(),
+                    td_config::get_map_block_pagination_array()
+                )
+            )
+        );
+
         td_api_block::add('td_block_futura_social_icons',
             array(
                 'map_in_visual_composer' => true,
