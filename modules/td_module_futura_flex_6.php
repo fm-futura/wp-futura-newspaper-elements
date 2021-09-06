@@ -15,7 +15,7 @@ class td_module_futura_flex_6 extends td_module_flex_6 {
         $this->show_audiohome = $show_audiohome;
     }
 
-    function render($order_no) {
+    function render($order_no, $shortcode_class='') {
         ob_start();
 
         $image_size = $this->get_shortcode_att('image_size');
