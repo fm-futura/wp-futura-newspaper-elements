@@ -68,3 +68,10 @@
   margin: 0 !important;
 }
 
+@media(max-width: 360px){
+  .td_module_futura_flex_7 .tdb-module-title-wrap {
+    overflow: hidden;
+    height: 7.5em;
+  }
+}
+
