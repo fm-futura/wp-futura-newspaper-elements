@@ -14,9 +14,7 @@
 
 .td_module_futura_flex_6 .td-module-title a,
 .td_module_futura_flex_7 .td-module-title a {
-  text-shadow:  .5ch 0ch 1.25ch #282828,
-               -.5ch 0ch 1.25ch #282828
-                !important;
+  background-color: #252525ad;
   border-radius: .25em;
 }
 
