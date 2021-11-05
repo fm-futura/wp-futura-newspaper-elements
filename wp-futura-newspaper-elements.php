@@ -130,6 +130,21 @@ class td_futura_api_plugin {
             )
         );
 
+        td_api_block::add('td_block_futura_tags',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Etiquetas mas usadas en la ultima semana',
+                "base" => 'td_block_futura_tags',
+                "class" => 'td_block_futura_tags',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_futura_tags',
+                'file' => $this->plugin_path . '/shortcodes/td_block_futura_tags.php',
+            )
+        );
+
         td_api_module::add( 'td_module_futura_flex_1',
             array_merge(
             td_api_module::get_by_id('td_module_flex_1'),
