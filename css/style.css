@@ -66,6 +66,12 @@
   margin: 0 !important;
 }
 
+.td-load-more-wrap a {
+  background: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 @media(max-width: 360px){
   .td_module_futura_flex_7 .tdb-module-title-wrap {
     overflow: hidden;
